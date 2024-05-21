@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-username/s3-to-rds-glue.git'
+                git 'git@github.com:Mayur435/godigital-repo.git'
             }
         }
 
